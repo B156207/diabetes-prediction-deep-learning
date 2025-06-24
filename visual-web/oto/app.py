@@ -282,8 +282,11 @@ def main():
         st.markdown("### Dataset Information")
         st.info(f"""
         **Total Samples:** {len(df)}
+        
         **Features:** {len(feature_columns)}
+        
         **Diabetic Cases:** {df['Outcome'].sum()} ({df['Outcome'].mean():.1%})
+        
         **Non-Diabetic Cases:** {len(df) - df['Outcome'].sum()} ({(1-df['Outcome'].mean()):.1%})
         """)
         st.markdown("### Feature Importance")
