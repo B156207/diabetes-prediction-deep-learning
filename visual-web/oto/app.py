@@ -123,7 +123,7 @@ class DiabetesPredictor(nn.Module):
 @st.cache_data
 def load_and_prepare_data():
     try:
-        df = pd.read_csv('diabetes.csv')
+        df = pd.read_csv('dataset/diabetes.csv')
         
         # data cleaning ---- replace 0s with median for certain columns
         columns_to_replace = ['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI']
