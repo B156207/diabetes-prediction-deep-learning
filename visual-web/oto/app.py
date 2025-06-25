@@ -348,11 +348,11 @@ def main():
         <p>Rexzea - <strong>Diabetes Predictor</strong> - Powered by PyTorch & Streamlit</p>
         <p><em>Note: This tool is for educational purposes only. Please consult healthcare professionals for medical advice.</em></p>
         <p>
-            <a href="https://github.com/username" target="_blank" style="text-decoration: none; color: #007acc; margin-right: 15px;">
+            <a href="https://github.com/rexzea" target="_blank" style="text-decoration: none; color: #007acc; margin-right: 15px;">
                 GitHub
             </a>
             |
-            <a href="https://instagram.com/yourprofile" target="_blank" style="text-decoration: none; color: #007acc; margin-left: 15px;">
+            <a href="https://www.instagram.com/alzennora?igsh=Ym8wZHFjcWRxaWhx" target="_blank" style="text-decoration: none; color: #007acc; margin-left: 15px;">
                 Instagram
             </a>
         </p>
