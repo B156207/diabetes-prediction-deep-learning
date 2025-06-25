@@ -351,6 +351,8 @@ def main():
             padding: 2rem 0 1rem 0;
             font-family: 'Segoe UI', sans-serif;
             font-size: 15px;
+            background-color: #f9f9f9;
+            border-top: 1px solid #ddd;
         }
         .footer-container p {
             margin: 0.4em 0;
@@ -367,6 +369,7 @@ def main():
             width: 28px;
             height: 28px;
             vertical-align: middle;
+            background-color: #000;
             border-radius: 6px;
         }
     </style>
