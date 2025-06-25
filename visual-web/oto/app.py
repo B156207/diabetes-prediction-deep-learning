@@ -344,19 +344,47 @@ def main():
   
     st.markdown("---")
     st.markdown("""
-    <div style='text-align: center; color: #666; padding: 2rem;'>
+    <style>
+        .footer-container {
+            text-align: center;
+            color: #555;
+            padding: 2rem 0 1rem 0;
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 15px;
+        }
+        .footer-container p {
+            margin: 0.4em 0;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            display: inline-block;
+            transition: transform 0.2s ease;
+        }
+        .social-icons a:hover {
+            transform: scale(1.2);
+        }
+        .social-icons img {
+            width: 28px;
+            height: 28px;
+            vertical-align: middle;
+            border-radius: 6px;
+        }
+    </style>
+
+    <div class="footer-container">
         <p>Rexzea - <strong>Diabetes Predictor</strong> - Powered by PyTorch & Streamlit</p>
         <p><em>Note: This tool is for educational purposes only. Please consult healthcare professionals for medical advice.</em></p>
-        <p>
-            <a href="https://github.com/username" target="_blank" style="margin-right: 15px;">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="30" />
+        <div class="social-icons">
+            <a href="https://github.com/username" target="_blank">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
             </a>
             <a href="https://instagram.com/yourprofile" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="30" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
             </a>
-        </p>
+        </div>
     </div>
     """, unsafe_allow_html=True)
+
 
 
 
