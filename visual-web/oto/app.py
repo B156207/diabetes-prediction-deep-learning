@@ -344,49 +344,21 @@ def main():
   
     st.markdown("---")
     st.markdown("""
-    <style>
-        .footer-container {
-            text-align: center;
-            color: #555;
-            padding: 2rem 0 1rem 0;
-            font-family: 'Segoe UI', sans-serif;
-            font-size: 15px;
-            background-color: #f9f9f9;
-            border-top: 1px solid #ddd;
-        }
-        .footer-container p {
-            margin: 0.4em 0;
-        }
-        .social-icons a {
-            margin: 0 10px;
-            display: inline-block;
-            transition: transform 0.2s ease;
-        }
-        .social-icons a:hover {
-            transform: scale(1.2);
-        }
-        .social-icons img {
-            width: 28px;
-            height: 28px;
-            vertical-align: middle;
-            background-color: #000;
-            border-radius: 6px;
-        }
-    </style>
-
-    <div class="footer-container">
+    <div style='text-align: center; color: #555; padding: 2rem 0 1rem 0; font-family: "Segoe UI", sans-serif; font-size: 15px;'>
         <p>Rexzea - <strong>Diabetes Predictor</strong> - Powered by PyTorch & Streamlit</p>
         <p><em>Note: This tool is for educational purposes only. Please consult healthcare professionals for medical advice.</em></p>
-        <div class="social-icons">
-            <a href="https://github.com/username" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" />
+        <p>
+            <a href="https://github.com/username" target="_blank" style="text-decoration: none; color: #333; margin-right: 15px;">
+                GitHub
             </a>
-            <a href="https://instagram.com/yourprofile" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
+            |
+            <a href="https://instagram.com/yourprofile" target="_blank" style="text-decoration: none; color: #333; margin-left: 15px;">
+                Instagram
             </a>
-        </div>
+        </p>
     </div>
     """, unsafe_allow_html=True)
+
 
 
 
