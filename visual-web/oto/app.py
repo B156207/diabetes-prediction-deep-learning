@@ -344,7 +344,7 @@ def main():
   
     st.markdown("---")
     st.markdown("""
-    <div style='text-align: center; color: #555; padding: 2rem 0 1rem 0; font-family: "Segoe UI", sans-serif; font-size: 15px;'>
+    <div style='text-align: center; color: #007bff; padding: 2rem 0 1rem 0; font-family: "Segoe UI", sans-serif; font-size: 15px;'>
         <p>Rexzea - <strong>Diabetes Predictor</strong> - Powered by PyTorch & Streamlit</p>
         <p><em>Note: This tool is for educational purposes only. Please consult healthcare professionals for medical advice.</em></p>
         <p>
