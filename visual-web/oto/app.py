@@ -347,8 +347,17 @@ def main():
     <div style='text-align: center; color: #666; padding: 2rem;'>
         <p>Rexzea - <strong>Diabetes Predictor</strong> - Powered by PyTorch & Streamlit</p>
         <p><em>Note: This tool is for educational purposes only. Please consult healthcare professionals for medical advice.</em></p>
+        <p>
+            <a href="https://github.com/username" target="_blank" style="margin-right: 15px;">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="30" />
+            </a>
+            <a href="https://instagram.com/yourprofile" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="30" />
+            </a>
+        </p>
     </div>
     """, unsafe_allow_html=True)
+
 
 
 
