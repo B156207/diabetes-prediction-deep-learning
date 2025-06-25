@@ -147,7 +147,6 @@ def load_and_prepare_data():
 
 @st.cache_resource
 def train_model(X_train, y_train, X_test, y_test):
-    """Train the PyTorch model"""
     # init model
     model = DiabetesPredictor()
     criterion = nn.BCELoss()
